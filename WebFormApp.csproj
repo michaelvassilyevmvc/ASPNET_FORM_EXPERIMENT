@@ -201,6 +201,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Main\ToasterMessage.cs" />
+    <Compile Include="Main\ToasterMessagePositionType.cs" />
     <Compile Include="Main\ToasterMessageType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

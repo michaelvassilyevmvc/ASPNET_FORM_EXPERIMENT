@@ -26,7 +26,7 @@
                 </div>
 
                 <asp:SqlDataSource ID="dsRegions" runat="server" ConnectionString='<%$ ConnectionStrings:MFKSConnectionString %>'
-                    SelectCommand="SELECT [ID], [NameRus] as Name FROM [Regions] WHERE ParentID = 0 AND ID = -1"></asp:SqlDataSource>
+                    SelectCommand="SELECT [ID], [NameRus] as Name FROM [Regions] WHERE ParentID = 0"></asp:SqlDataSource>
 
                 <asp:SqlDataSource
                     ID="dsClients"

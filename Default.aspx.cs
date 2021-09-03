@@ -19,7 +19,7 @@ namespace WebFormApp
             {
                 e.Command.Parameters["@RegionID"].Value = cbRegions.SelectedItem?.Value ?? 0;
 
-                if((int)e.Command.Parameters["@RegionID"].Value == 0)
+                if(cbRegions.SelectedItem == null)
                 {
                     this.Page.ShowToastr("Не доступен список регионов", "Ошибка", ToasterMessageType.Error);
                 }
